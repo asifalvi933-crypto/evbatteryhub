@@ -344,7 +344,7 @@
       <div>
         <p class="font-semibold text-white mb-2">Contact Us</p>
         <p>Email: info@evbatteryhub.in</p>
-        <p>WhatsApp: +91 98XXXXXXXX</p>
+        <p>WhatsApp: +91 6395948240</p>
       </div>
     </div>
     <div class="border-t border-white/10 text-center text-xs py-4">© <span id="yr"></span> EV Battery Hub India. All rights reserved.</div>
@@ -357,7 +357,7 @@
 /* ============================================================
    CONFIG — edit these values to match your business
    ============================================================ */
-const WHATSAPP_NUMBER = "919800000000"; // country code + number, no "+"
+const WHATSAPP_NUMBER = "916395948240"; // Updated with your WhatsApp number
 
 // Indicative scrap rates in ₹ per kg (update daily or fetch from your API)
 const RATES = { LFP: 55, NMC: 130, LEAD: 85 };
@@ -563,12 +563,6 @@ $("leadForm").addEventListener("submit", async e => {
   if (!/^[6-9]\d{9}$/.test(data.phone)) {
     err.textContent = "Enter a valid 10-digit Indian mobile number."; err.classList.remove("hidden"); return;
   }
-
-  /* TODO: connect your backend here, e.g.
-     await fetch("https://your-api.example/leads", {
-       method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(data)
-     });
-  */
 
   ok.innerHTML = `✅ Thank you, <b>${data.name}</b>! We received your request for <b>${data.quantity}</b> (${data.category}, ${data.city}). Our team will contact you on WhatsApp at <b>+91 ${data.phone}</b> shortly.
     <a class="block mt-2 font-semibold text-green-700 underline" target="_blank" rel="noopener" href="${waLink(`Hi, I'm ${data.name} from ${data.city}. Category: ${data.category}. Scrap quantity: ${data.quantity}. Please share your best quote.`)}">Or chat with us now on WhatsApp →</a>`;
