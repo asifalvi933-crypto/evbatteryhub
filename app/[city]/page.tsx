@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { SITE_URL, getCity, getPublishedCities } from "@/lib/cities";
+import { SITE_URL, getCity, getPublishedCities } from "../lib/cities";
 
 // Jo city JSON mein nahi hai ya published=false hai, wo 404 degi
 export const dynamicParams = false;
