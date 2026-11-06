@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { SITE_URL, getPublishedCities } from "@/lib/cities";
+import { SITE_URL, getPublishedCities } from "../lib/cities";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const home: MetadataRoute.Sitemap[number] = {
