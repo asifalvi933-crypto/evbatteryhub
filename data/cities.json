@@ -1,0 +1,98 @@
+[
+  {
+    "slug": "delhi-ncr",
+    "name": "Delhi NCR",
+    "state": "Delhi",
+    "published": true,
+    "updatedAt": "2026-11-06",
+    "intro": "Delhi NCR mein e-rickshaw, EV scooter aur commercial fleets ki badi sankhya ki wajah se purani lithium-ion aur lead-acid batteries ka scrap volume lagatar badh raha hai.",
+    "localAreas": ["Delhi", "Ghaziabad", "Faridabad", "Gurugram", "Noida"],
+    "marketContext": "Yahan e-rickshaw aur last-mile delivery fleets ki demand zyada hai, isliye retired 2W/3W batteries ka supply steady rehta hai. [REPLACE: apne local research ke hisaab se details likhein]",
+    "logistics": "Bade lots ke liye pickup aur weighment ki sahulat, chhote lots ke liye drop-off option. [REPLACE: real logistics info]",
+    "segments": ["E-rickshaw (3W)", "Electric scooters (2W)", "Delivery fleets", "Telecom & UPS backup"],
+    "batteryTypes": ["LFP", "NMC", "Lead Acid"],
+    "nearby": ["gurgaon", "noida"],
+    "faqs": [
+      {
+        "q": "Delhi NCR mein purani EV battery ka scrap rate kaise pata karein?",
+        "a": "Rate battery chemistry (LFP, NMC, Lead Acid), weight, condition aur live metal prices par depend karta hai. Hamare calculator se indicative estimate le sakte hain, final price physical inspection ke baad tay hota hai."
+      },
+      {
+        "q": "Kya battery sirf authorised recycler ko hi bechni chahiye?",
+        "a": "Haan. Battery Waste Management Rules ke tahat waste batteries sirf registered/authorised recyclers aur refurbishers ko di jaani chahiye. Hum aapko verified buyers se connect karte hain."
+      }
+    ]
+  },
+  {
+    "slug": "moradabad",
+    "name": "Moradabad",
+    "state": "Uttar Pradesh",
+    "published": true,
+    "updatedAt": "2026-11-06",
+    "intro": "Moradabad metal aur brassware industry ke liye jaana jaata hai, aur yahan ka scrap-trading network lithium aur lead-acid battery scrap ke liye bhi active hai.",
+    "localAreas": ["Moradabad city", "Rampur", "Sambhal", "Amroha"],
+    "marketContext": "Local scrap dealers ka dense network hone se yahan chhote lots aasani se milte hain, lekin compliance aur registered buyer ki verification zaroori hai. [REPLACE: real local data]",
+    "logistics": "Dealers aur individual sellers ke liye pickup coordination. Delhi NCR ke recyclers tak transport ka option. [REPLACE: real info]",
+    "segments": ["E-rickshaw (3W)", "Local scrap dealers", "Small workshops", "Solar storage"],
+    "batteryTypes": ["Lead Acid", "LFP", "NMC"],
+    "nearby": ["delhi-ncr", "noida"],
+    "faqs": [
+      {
+        "q": "Moradabad mein lithium battery scrap kahan bechein?",
+        "a": "Aap hamare form se apni details bhej sakte hain. Hum aapko verified aur authorised buyers se connect karte hain jo aapke area mein lot le sakte hain."
+      },
+      {
+        "q": "Local dealer ke liye minimum quantity kitni honi chahiye?",
+        "a": "Minimum lot buyer par depend karta hai. Form mein quantity bharein, hum us hisaab se matching buyer batate hain."
+      }
+    ]
+  },
+  {
+    "slug": "gurgaon",
+    "name": "Gurgaon",
+    "state": "Haryana",
+    "published": true,
+    "updatedAt": "2026-11-06",
+    "intro": "Gurgaon (Gurugram) mein corporate fleets, cab aggregators aur logistics companies ke EV badhne se bulk battery replacement aur scrap requirements aa rahi hain.",
+    "localAreas": ["Sector 18", "Udyog Vihar", "Manesar", "Sohna Road"],
+    "marketContext": "Yahan B2B aur commercial fleet leads zyada hoti hain, jinhe documentation (weighment slip, invoice, disposal proof) chahiye. [REPLACE: real data]",
+    "logistics": "Fleet depots se bulk pickup coordination, documentation support. [REPLACE: real info]",
+    "segments": ["Commercial fleets", "Cab & delivery operators", "Corporate EV programmes", "Telecom backup"],
+    "batteryTypes": ["NMC", "LFP", "Lead Acid"],
+    "nearby": ["delhi-ncr", "noida"],
+    "faqs": [
+      {
+        "q": "Fleet operator bulk battery scrap kaise bech sakta hai?",
+        "a": "B2B lead form bharein, quantity aur chemistry batayein. Hum verified recyclers se bulk quote aur documentation process arrange karte hain."
+      },
+      {
+        "q": "Kya scrap ke saath disposal documentation milta hai?",
+        "a": "Yeh buyer par depend karta hai. Compliance-focused fleets ko hum documentation dene wale registered buyers se match karte hain."
+      }
+    ]
+  },
+  {
+    "slug": "noida",
+    "name": "Noida",
+    "state": "Uttar Pradesh",
+    "published": true,
+    "updatedAt": "2026-11-06",
+    "intro": "Noida aur Greater Noida ke industrial belt mein manufacturing rejects, warranty returns aur EV fleets se battery scrap ka flow rehta hai.",
+    "localAreas": ["Sector 62", "Noida Phase 2", "Greater Noida", "Surajpur"],
+    "marketContext": "Industrial units aur electronics/EV suppliers ki wajah se production scrap aur B2B lots yahan relevant hain. [REPLACE: real data]",
+    "logistics": "Industrial area pickups aur bulk lot coordination. [REPLACE: real info]",
+    "segments": ["Manufacturing rejects", "Warranty returns", "E-rickshaw (3W)", "Fleets"],
+    "batteryTypes": ["NMC", "LFP", "Lead Acid"],
+    "nearby": ["delhi-ncr", "gurgaon"],
+    "faqs": [
+      {
+        "q": "Noida mein battery recycling ke liye kya process hai?",
+        "a": "Form bharein, hum aapki details ke hisaab se verified recycler se connect karte hain, jo inspection aur pickup arrange karta hai."
+      },
+      {
+        "q": "Kya damaged ya swollen battery bhi li jaati hai?",
+        "a": "Damaged batteries ke liye special handling chahiye hoti hai. Form mein condition zaroor batayein, safe packaging ke instructions alag se milenge."
+      }
+    ]
+  }
+]
