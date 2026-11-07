@@ -1,20 +1,27 @@
 import type { MetadataRoute } from "next";
-import { SITE_URL, getPublishedCities } from "../lib/cities";
+import { SITE_URL, getCityUrl, getPublishedCities } from "../lib/cities";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const home: MetadataRoute.Sitemap[number] = {
-    url: SITE_URL,
-    lastModified: new Date(),
-    changeFrequency: "daily",
-    priority: 1,
-  };
+  const cities = getPublishedCities();
 
-  const cityPages: MetadataRoute.Sitemap = getPublishedCities().map((c) => ({
-    url: `${SITE_URL}/${c.slug}`,
-    lastModified: new Date(c.updatedAt),
-    changeFrequency: "weekly",
-    priority: 0.8,
-  }));
+  // Use the newest content date instead of "now", so lastmod stays truthful
+  const latest = cities.reduce(
+    (max, c) => Math.max(max, Date.parse(c.updatedAt)),
+    0
+  );
 
-  return [home, ...cityPages];
+  return [
+    {
+      url: SITE_URL,
+      lastModified: latest ? new Date(latest) : undefined,
+      changeFrequency: "weekly",
+      priority: 1,
+    },
+    ...cities.map((c) => ({
+      url: getCityUrl(c.slug),
+      lastModified: new Date(c.updatedAt),
+      changeFrequency: "weekly" as const,
+      priority: 0.8,
+    })),
+  ];
 }
