@@ -610,6 +610,22 @@ export default function HomePage() {
             <p>WhatsApp: +91 6395948240</p>
           </div>
         </div>
+        
+        {/* Google Translate Widget Integration */}
+        <div className="py-4 text-center border-t border-white/10">
+          <div id="google_translate_element" className="inline-block"></div>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                function googleTranslateElementInit() {
+                  new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'hi,en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+                }
+              `,
+            }}
+          />
+          <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        </div>
+
         <div className="border-t border-white/10 text-center text-xs py-4">© <span id="yr"></span> EV Battery Hub India. All rights reserved.</div>
       </footer>
 
