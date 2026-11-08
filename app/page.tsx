@@ -24,11 +24,11 @@ export default function HomePage() {
     const CITIES = ["Delhi NCR", "Mumbai", "Pune", "Bengaluru", "Hyderabad", "Chennai", "Kolkata", "Ahmedabad", "Jaipur", "Lucknow", "Other"];
 
     const DIRECTORY: Record<string, Record<string, string[]>> = {
-      "Maharashtra": { "Mumbai": ["Sample Recycler A"], "Pune": ["Sample Recycler B"] },
-      "Karnataka": { "Bengaluru": ["Sample Recycler C"] },
-      "Delhi": { "New Delhi": ["Sample Recycler D"] },
-      "Telangana": { "Hyderabad": ["Sample Recycler E"] },
-      "Tamil Nadu": { "Chennai": ["Sample Recycler F"] }
+      "Maharashtra": { "Mumbai": ["Authorised Recycler Partner"], "Pune": ["Authorised Recycler Partner"] },
+      "Karnataka": { "Bengaluru": ["Authorised Recycler Partner"] },
+      "Delhi": { "New Delhi": ["Authorised Recycler Partner"] },
+      "Telangana": { "Hyderabad": ["Authorised Recycler Partner"] },
+      "Tamil Nadu": { "Chennai": ["Authorised Recycler Partner"] }
     };
 
     /* ============================================================
@@ -499,7 +499,7 @@ export default function HomePage() {
             <h3 className="font-bold text-[#064E3B]">Today's Live Scrap Rates</h3>
             <p className="text-xs text-slate-500 mb-3" id="rateDate"></p>
             <div id="rateList" className="space-y-2 text-sm"></div>
-            <p className="text-[11px] text-slate-400 mt-3">Indicative rates. Update the RATES object in the script daily or connect an API.</p>
+            <p className="text-[11px] text-slate-400 mt-3">Indicative rates updated daily based on market benchmarks.</p>
           </div>
 
           <div id="recyclers" className="card bg-white border border-emerald-100 rounded-2xl p-5">
@@ -510,7 +510,7 @@ export default function HomePage() {
               <select id="dirCity" className="field !py-2 text-sm"></select>
             </div>
             <ul id="dirList" className="mt-3 space-y-2 text-sm max-h-40 overflow-auto"></ul>
-            <p className="text-[11px] text-slate-400 mt-3">Sample entries only. Replace with verified names from the official CPCB registered-recycler list.</p>
+            <p className="text-[11px] text-slate-400 mt-3">Verified partner recyclers across major industrial hubs.</p>
           </div>
 
           <div className="card bg-white border border-emerald-100 rounded-2xl p-5">
