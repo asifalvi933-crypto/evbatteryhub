@@ -62,62 +62,305 @@
     ]
   },
   {
-    "slug": "moradabad",
-    "name": "Moradabad",
+    "slug": "okhla",
+    "name": "Okhla",
+    "state": "Delhi",
+    "kind": "locality",
+    "parentSlug": "delhi-ncr",
+    "published": true,
+    "updatedAt": "2026-11-08",
+    "h1": "Sell Old EV & E-Rickshaw Batteries in Okhla, Delhi",
+    "metaTitle": "Sell Old EV Battery in Okhla, Delhi | Scrap Price Check",
+    "metaDescription": "Sell old e-rickshaw, lithium-ion and lead-acid batteries in Okhla. Check an indicative scrap price per kg and reach registered buyers on WhatsApp.",
+    "tagline": "Industrial-estate workshops and service-centre battery lots",
+    "heroSummary": "Okhla's industrial estate phases and the neighbourhoods around them produce a steady trickle of used batteries: workshop replacements, small-factory UPS sets, e-rickshaw packs and scooter batteries. The area is compact and well connected to the rest of South Delhi, so pickups here are usually quicker than in the outer industrial belts.",
+    "keywords": {
+      "primary": "EV battery scrap in Okhla",
+      "price": "EV battery scrap price per kg in Okhla",
+      "buyer": "old e-rickshaw battery buyer near Okhla",
+      "recycling": "Lithium ion battery recycling price near Okhla"
+    },
+    "marketContext": [
+      "Okhla Industrial Estate is spread across several phases and houses small and mid-sized units in sectors such as garments, printing, auto components and light engineering. These units run UPS and inverter backups and increasingly use electric delivery and staff vehicles. When those batteries retire they tend to appear in small batches rather than large fleets, which suits individual dealers and workshops.",
+      "The residential areas around the estate add e-rickshaw owners and electric scooter riders, many of whom service their vehicles at local garages. Those garages often keep the old packs, so a garage owner who has collected a dozen lead-acid batteries or a few lithium packs is a typical seller on this page."
+    ],
+    "industrialHubs": [
+      { "name": "Okhla Industrial Estate (Phases I-III)", "note": "Clusters of small units with UPS, inverter and light-vehicle batteries." },
+      { "name": "Jasola", "note": "Commercial district bordering Okhla with offices and service centres." },
+      { "name": "Kalindi Kunj road", "note": "Road link between Okhla and Noida, useful for pickups heading to the Uttar Pradesh side." },
+      { "name": "Govindpuri & Tughlakabad", "note": "Residential and workshop clusters to the west of Okhla." }
+    ],
+    "dealerNetwork": "Small battery shops and garages around the estate buy most single-unit lots. For larger accumulations, such as a factory's retired UPS bank, dealers usually route material to bigger yards in the Delhi and Ghaziabad belts. If you want an old e-rickshaw battery buyer near Okhla, call two or three nearby shops for a verbal estimate, then compare it with an authorised buyer's written quote before you sell.",
+    "logistics": "Okhla is compact, but its main roads and the Delhi-Noida link roads get congested at peak hours. Ask for pickup before mid-morning or after the evening rush. Narrow factory lanes can limit vehicle size, so tell the buyer whether a loading bay is available and how many units are stacked.",
+    "chemistryFocus": {
+      "Lead Acid": "Many lots here are 12 V lead-acid units from UPS banks and e-rickshaws. List each unit's Ah rating and approximate age, because older sulphated batteries are priced mainly on weight.",
+      "NMC": "Electric scooters and delivery two-wheelers around Okhla often carry NMC packs. If the pack has a BMS app, a screenshot of voltage and cycle count helps the buyer quote without a second visit.",
+      "LFP": "Packs from newer e-loaders and backup systems should be listed as LFP only when the label confirms it. Note the 51.2 V or 48 V marking so the buyer can verify the chemistry."
+    },
+    "sellerTips": [
+      "If you run a factory, schedule pickup for a quiet hour and keep the retired UPS bank accessible at ground level.",
+      "Garage owners should group units by chemistry and avoid stacking lithium packs on top of lead-acid batteries.",
+      "Ask the buyer to weigh in front of you and write the weight on the receipt."
+    ],
+    "nearby": ["delhi-ncr", "noida", "ghaziabad", "mayapuri"],
+    "faqs": [
+      {
+        "q": "Is there a battery scrap buyer for small lots in Okhla?",
+        "a": "Yes, even a few units can be submitted. Enter the number of units and the chemistry in the form, and we suggest buyers who accept lots of that size around South Delhi."
+      },
+      {
+        "q": "Can a factory in Okhla Industrial Estate sell retired UPS batteries?",
+        "a": "Yes. Submit the number of units, Ah rating and approximate weight. For compliance records, ask the buyer for a receipt and their registration details."
+      },
+      {
+        "q": "How do I send a lithium pack from Okhla to a buyer in Noida or Ghaziabad?",
+        "a": "The buyer arranges collection in a suitable vehicle. Cover exposed terminals, keep the pack dry and never transport a damaged or swollen pack yourself; tell the buyer about its condition so safe handling is arranged."
+      },
+      {
+        "q": "Why does my Okhla quote differ from one I heard in another part of Delhi?",
+        "a": "Quotes vary with chemistry, weight, condition, the buyer's yard location and current metal prices. Compare at least two written quotes made on the same day for the same lot."
+      }
+    ]
+  },
+  {
+    "slug": "mayapuri",
+    "name": "Mayapuri",
+    "state": "Delhi",
+    "kind": "locality",
+    "parentSlug": "delhi-ncr",
+    "published": true,
+    "updatedAt": "2026-11-08",
+    "h1": "Old Battery Scrap in Mayapuri: Sell Lead-Acid & Lithium-ion Batteries",
+    "metaTitle": "Mayapuri Old Battery Scrap: Sell Lead-Acid & Lithium-ion",
+    "metaDescription": "Selling old batteries in Mayapuri? Compare scrap price per kg for lead-acid, LFP and NMC and reach registered buyers who provide proper paperwork.",
+    "tagline": "Scrap-and-parts market with a trade-driven pricing culture",
+    "heroSummary": "Mayapuri in West Delhi is widely known for second-hand auto parts, machinery and metal scrap. Dealers here are used to buying by weight and negotiating on the spot, which makes the area a useful price reference, but also one where it pays to confirm who the final recipient of a lithium pack is.",
+    "keywords": {
+      "primary": "battery scrap in Mayapuri",
+      "price": "battery scrap price per kg in Mayapuri",
+      "buyer": "old battery buyer in Mayapuri",
+      "recycling": "Lithium ion battery recycling price in Mayapuri"
+    },
+    "marketContext": [
+      "A scrap-trading area works on volume and speed. Dealers quote quickly, pay in cash or by transfer and move material onward to larger processors. For lead-acid batteries that rhythm works well, because the product is standardised and priced by weight. Lithium packs are less standard: chemistry, state of health and pack format all change the value, and a verbal quote made without any BMS data may not hold up.",
+      "Scrap markets are subject to environmental and safety rules, and enforcement can change how openly certain materials are traded. For battery sellers the practical lesson is simple: keep paperwork, ask who the buyer is and avoid handing over cells or modules stripped from packs, since loose cells are harder to handle safely and may be refused by registered recyclers."
+    ],
+    "industrialHubs": [
+      { "name": "Mayapuri Industrial Area (Phases I & II)", "note": "Workshops, parts shops and scrap yards in close proximity." },
+      { "name": "Naraina Industrial Area", "note": "Neighbouring estate with small manufacturers and workshops." },
+      { "name": "Hari Nagar & Tilak Nagar", "note": "Residential West Delhi neighbourhoods near Mayapuri with e-rickshaw owners." },
+      { "name": "Ring Road corridor", "note": "Main road link used for pickups towards central and south Delhi." }
+    ],
+    "dealerNetwork": "Walk-in dealers dominate Mayapuri. You can collect several verbal figures within an hour, which is useful for price discovery. For an old battery buyer in Mayapuri who also provides paperwork, ask for a written receipt with weight, date and the buyer's name. If you are selling lithium-ion, ask whether the dealer sells onward to a registered recycler or refurbisher and get that detail before you hand over the pack.",
+    "logistics": "The Ring Road and the roads around Naraina carry heavy goods traffic, and time-based entry rules apply to many vehicles. Narrow lanes inside the market can limit vehicle size, so a buyer may ask you to bring a small lot to a loading point. For lithium packs, insist on pickup by the buyer instead of carrying a pack on public transport or a two-wheeler.",
+    "chemistryFocus": {
+      "Lead Acid": "Lead-acid is the easy sale in this market, since weight, brand and age decide the price. Keep batteries upright, do not drain the acid to lighten a unit, and expect leaking cases to be rejected or quoted lower.",
+      "NMC": "Scooter and delivery-bike NMC packs attract dealers who expect nickel and cobalt value, but a pack sold without readings may be quoted conservatively. Capture whatever BMS data you can before you visit.",
+      "LFP": "LFP packs may interest refurbishers more than scrap dealers, because metal content is modest while remaining capacity can still be useful. Ask for two quotes: one for scrap and one for refurbishment or reuse."
+    },
+    "sellerTips": [
+      "Use the market as a price benchmark, then request a written quote before committing.",
+      "Never open or strip a lithium pack to sell the cells separately; intact packs are safer and easier to place.",
+      "Carry photo ID and a bill or RC copy, because legitimate buyers may ask for proof of ownership."
+    ],
+    "nearby": ["delhi-ncr", "narela", "okhla", "gurgaon"],
+    "faqs": [
+      {
+        "q": "Is Mayapuri a good place to check battery scrap prices?",
+        "a": "It is useful for quick comparison because many dealers buy by weight, but verbal quotes vary from shop to shop. Treat them as reference points and confirm the final price in writing."
+      },
+      {
+        "q": "Can I sell lithium-ion e-rickshaw batteries in Mayapuri?",
+        "a": "You can, but make sure the buyer can show registration under the Battery Waste Management Rules or sells onward to a registered recycler. Otherwise your battery may end up in unsafe handling."
+      },
+      {
+        "q": "What if my battery pack is swollen or leaking?",
+        "a": "Do not charge it or carry it by hand over long distances. Mention the condition in the form, and the matched buyer will advise on safe packaging and pickup."
+      },
+      {
+        "q": "Do dealers in Mayapuri pay by weight for lithium packs?",
+        "a": "Lead-acid is usually priced by weight. Lithium packs are also priced on chemistry, format and condition, so a flat per-kg rate may not apply."
+      }
+    ]
+  },
+  {
+    "slug": "narela",
+    "name": "Narela & Bawana",
+    "state": "Delhi",
+    "kind": "locality",
+    "parentSlug": "delhi-ncr",
+    "published": true,
+    "updatedAt": "2026-11-08",
+    "h1": "EV Battery Scrap in Narela & Bawana: Bulk Lots for Factories and Fleets",
+    "metaTitle": "Battery Scrap in Narela & Bawana | Bulk Lot Price Check",
+    "metaDescription": "Factories and fleets in Narela and Bawana: get a bulk EV and lead-acid battery scrap price estimate and reach authorised recyclers with paperwork.",
+    "tagline": "North Delhi's factory and warehouse belt for bulk lots",
+    "heroSummary": "Narela and Bawana form one of Delhi's largest industrial and warehousing belts. Batteries here arrive in bulk: retired UPS banks, forklift and material-handling batteries, factory vehicles and the fleets of logistics companies. This page focuses on bulk pickups, weighment and paperwork.",
+    "keywords": {
+      "primary": "EV battery scrap in Narela",
+      "price": "Bulk battery scrap price per kg in Narela",
+      "buyer": "bulk e-rickshaw battery buyer in Narela",
+      "recycling": "Lithium ion battery recycling price in Narela and Bawana"
+    },
+    "marketContext": [
+      "Large industrial estates in north Delhi host manufacturing units, cold storage, warehouses and logistics yards. Their battery waste differs from the retail mix of South Delhi. Material-handling equipment, backup power and electric cargo vehicles produce heavy lead-acid sets and, increasingly, lithium packs that retire together on a maintenance schedule.",
+      "The belt is also associated with waste-handling and recycling units, so sellers here often have more than one buyer to choose from. That helps on price but makes the registration check more important: ask for current registration under the Battery Waste Management Rules and a written statement of the documents you will receive after collection."
+    ],
+    "industrialHubs": [
+      { "name": "Narela Industrial Area", "note": "A large planned estate with factories and warehouses." },
+      { "name": "Bawana Industrial Area", "note": "Neighbouring estate with a wide mix of manufacturing and processing units." },
+      { "name": "Singhu Border (NH-44) approach", "note": "Highway link towards Haryana, relevant for pickups that go on to the Sonipat or Panipat side." },
+      { "name": "Rohini & Mangolpuri industrial pockets", "note": "Nearby areas with smaller units and workshops." }
+    ],
+    "dealerNetwork": "Bulk buyers dominate in this belt. They send trucks, weigh at the gate and pay against a weighment slip, which suits factories that need an audit trail. If you are looking for a bulk e-rickshaw battery buyer in Narela, expect questions about quantity, chemistry split and how the packs are stored. Smaller dealers also operate here, but for lots containing lithium packs it is better to deal directly with a registered recycler or with a collector who names the recycler.",
+    "logistics": "Narela and Bawana sit on the northern edge of Delhi near the Haryana border, so trucks usually approach via GT Karnal Road and the Haryana side. Time-based goods-vehicle rules and seasonal GRAP curbs can still affect scheduling. Plan pickups by appointment, confirm gate and loading arrangements, and keep one person on site to witness weighment.",
+    "chemistryFocus": {
+      "Lead Acid": "Forklift, pallet-truck and UPS batteries are typically much heavier than e-rickshaw units. List make, voltage, Ah rating and weight per unit, since industrial traction batteries can be priced differently from automotive-type batteries.",
+      "NMC": "Electric cargo vehicles and warranty returns may arrive with NMC modules. Describe the format (pack, module or loose cell) and any damage clearly, because it decides which recyclers can accept the lot.",
+      "LFP": "LFP packs from electric loaders or stationary storage units should be listed with voltage, Ah rating and any BMS logs. Fleet owners sometimes set healthy packs aside to request a refurbisher's quote."
+    },
+    "sellerTips": [
+      "Ask the buyer to issue a weighment slip and, for lithium lots, to name the documents they will provide after processing.",
+      "Record serial numbers for each pack or unit, then reconcile them against the final weighment.",
+      "Put one named person in charge of handover and sign-off to keep the audit trail clean."
+    ],
+    "nearby": ["delhi-ncr", "mayapuri", "okhla", "gurgaon"],
+    "faqs": [
+      {
+        "q": "What is the minimum quantity for bulk battery pickup in Narela?",
+        "a": "Minimums depend on the buyer and the chemistry. Enter your unit count and estimated weight in the form, and we suggest buyers who collect lots of that size."
+      },
+      {
+        "q": "Can a factory in Bawana get disposal documentation after selling batteries?",
+        "a": "Registered recyclers can usually provide weighment and processing documents. Confirm what you will receive before pickup, especially if your company needs audit or EPR-related records."
+      },
+      {
+        "q": "How are forklift batteries different from e-rickshaw batteries when selling scrap?",
+        "a": "Forklift and industrial traction batteries are larger and heavier and are specified by voltage and Ah, and buyers may price them differently from automotive-type units. State make, voltage, Ah and weight so the quote is accurate."
+      },
+      {
+        "q": "Can I sell loose lithium cells or damaged modules from Narela?",
+        "a": "Some recyclers accept them, but handling is stricter. Say clearly that the lot contains loose cells or damaged modules so the buyer can plan packaging and transport."
+      }
+    ]
+  },
+  {
+    "slug": "ghaziabad",
+    "name": "Ghaziabad",
     "state": "Uttar Pradesh",
     "kind": "city",
     "published": true,
     "updatedAt": "2026-11-08",
-    "h1": "Sell Old E-Rickshaw & Lithium Batteries in Moradabad: Scrap Price Guide",
-    "metaTitle": "Old E-Rickshaw Battery Buyer in Moradabad | Scrap Price",
-    "metaDescription": "Sell old e-rickshaw, lithium-ion and lead-acid batteries in Moradabad. See what affects the scrap price per kg and reach buyers who can collect.",
-    "tagline": "Metal-trade city with an active scrap-dealer network",
-    "heroSummary": "Moradabad, known as the Brass City, has one of Uttar Pradesh's most established metal and scrap-trading economies. The same dealer network now handles e-rickshaw and scooter batteries. Check an indicative value, then reach buyers who can take lead-acid and lithium-ion lots responsibly.",
+    "h1": "EV Battery Scrap in Ghaziabad: Sahibabad, Loni & Meerut Road Sellers",
+    "metaTitle": "EV Battery Scrap in Ghaziabad | Sahibabad, Loni Sellers",
+    "metaDescription": "Selling old batteries in Ghaziabad, Sahibabad or Loni? See what drives scrap price per kg for e-rickshaw and lithium packs and get a quote on WhatsApp.",
+    "tagline": "UP's NCR gateway with dense industrial and scrap trade",
+    "heroSummary": "Ghaziabad is the Uttar Pradesh gateway to Delhi, with industrial areas such as Sahibabad, Loni and Meerut Road and a deep local scrap economy. Sellers here range from e-rickshaw owners to factories, and the border location lets buyers collect on both sides.",
     "keywords": {
-      "primary": "EV battery scrap in Moradabad",
-      "price": "E-rickshaw battery scrap price per kg in Moradabad",
-      "buyer": "old e-rickshaw battery buyer in Moradabad",
-      "recycling": "Lithium ion battery recycling price in Moradabad"
+      "primary": "EV battery scrap in Ghaziabad",
+      "price": "EV battery scrap price per kg in Ghaziabad",
+      "buyer": "old e-rickshaw battery buyer in Ghaziabad",
+      "recycling": "Lithium ion battery recycling price in Ghaziabad"
     },
     "marketContext": [
-      "Moradabad's economy runs on metal: brassware manufacturing and export, foundries and an extensive local trade in brass and other scrap. Buying, weighing and moving scrap are everyday skills here, but traditional metal dealers are not automatically equipped or authorised to handle lithium-ion or lead-acid battery waste.",
-      "E-rickshaws and electric two-wheelers are increasingly common in the city and nearby towns, so more retired packs reach local dealers and workshops. Moradabad is roughly 160 km from Delhi, which means lots often move onward to larger recyclers in the NCR belt. Transport cost is therefore a real part of the price you are offered."
+      "Ghaziabad's industrial areas, including Sahibabad Industrial Area, the Meerut Road estate and the Loni belt, house a wide variety of units, from engineering and electrical goods to plastics and metal processing. Scrap trading is long established, and many dealers are used to buying lead and other metals by weight.",
+      "E-rickshaws are a familiar sight on feeder routes to Metro stations and markets, which generates a steady supply of old lead-acid sets and, more recently, lithium packs. Because the city sits on the Delhi border, a seller can often choose between a Ghaziabad buyer and one on the Delhi side. Compare both, but remember that vehicles crossing the border face different rules."
     ],
     "industrialHubs": [
-      { "name": "Civil Lines & city centre", "note": "Dense mix of workshops, e-rickshaw sellers and scrap traders." },
-      { "name": "Kanth Road", "note": "Main route with workshops, trading units and export-oriented businesses." },
-      { "name": "Delhi Road corridor", "note": "Highway-side workshops and dealers, convenient for onward transport to NCR buyers." },
-      { "name": "Rampur, Sambhal & Amroha", "note": "Nearby towns whose dealers and e-rickshaw owners often sell through Moradabad." }
+      { "name": "Sahibabad Industrial Area", "note": "Established estate with engineering, electrical and light manufacturing units." },
+      { "name": "Loni", "note": "Industrial and trading belt on the Delhi border with a strong scrap-dealer presence." },
+      { "name": "Meerut Road Industrial Area", "note": "Corridor of factories and warehouses on the road towards Meerut." },
+      { "name": "Vasundhara & Indirapuram", "note": "Dense residential colonies with e-rickshaw feeder traffic and society backup batteries." }
     ],
-    "dealerNetwork": "A thick network of metal dealers means you can get several verbal figures quickly, but a metal dealer is not necessarily an authorised battery buyer. If you want an old e-rickshaw battery buyer in Moradabad, ask where each dealer's lead-acid goes and whether lithium packs are passed to a registered recycler. Dealers who consolidate loads for the Delhi side can often pay a fairer rate than those who simply stockpile.",
-    "logistics": "Because Moradabad is not a lithium-ion recycling hub, the price you receive reflects transport to the buyer. Larger lots are collected by vehicle on the Delhi road corridor, while a single pack may be better combined with a dealer's consolidated load. Share your exact location, pack count and condition so the matched buyer can quote pickup realistically.",
+    "dealerNetwork": "Ghaziabad has a deep bench of local dealers, which makes it easy to collect several quotes, but not every dealer is authorised to handle lithium batteries. When choosing an old e-rickshaw battery buyer in Ghaziabad, ask whether lead-acid goes to a smelter and whether lithium packs are passed to a registered recycler. Chains that are open about the next buyer are easier to trust.",
+    "logistics": "Border traffic can be heavy around Anand Vihar, the Loni border and the Delhi-Meerut Expressway corridor, and winter GRAP restrictions may apply to some commercial vehicles across the NCR. Schedule pickups outside peak hours, and tell the buyer about road access to your yard or colony so the right-sized vehicle is sent.",
     "chemistryFocus": {
-      "Lead Acid": "Lead-acid e-rickshaw and inverter batteries are the bulk of what local dealers see. Separate them from lithium, and note the Ah rating and age of each unit.",
-      "LFP": "As e-loaders and newer e-rickshaws with lithium arrive in the city and nearby towns, LFP packs should be listed separately. A pack with good BMS readings may interest a refurbisher.",
-      "NMC": "NMC scooter packs from dealers and service shops should be kept intact. The buyer will quote after factoring in transport, so give accurate voltage, Ah and condition details."
+      "Lead Acid": "Many e-rickshaw sets in Ghaziabad run on four 12 V lead-acid batteries. Sell them together with age and Ah rating noted, since buyers often quote older, sulphated units mainly by weight.",
+      "LFP": "As delivery and e-loader fleets in the Sahibabad and Loni belt add lithium packs, LFP lots will become more common. Keep BMS screenshots and cycle counts, because healthier packs may suit refurbishers.",
+      "NMC": "Electric scooters and service-centre replacements often yield NMC packs. List the chemistry and pack voltage, and do not mix them with LFP in one lot."
     },
     "sellerTips": [
-      "If you are a dealer, separate lead-acid, LFP and NMC packs, since mixed lots may be priced at the lowest-value chemistry.",
-      "Do not open or strip packs to sell cells separately. Intact packs are easier to inspect and safer to transport.",
-      "Consolidate small lots with other sellers where possible to reduce per-kg transport cost."
+      "If you manage a society or factory, photograph the battery bank and label each unit before collection.",
+      "Ask whether the buyer collects from the Loni or Sahibabad side, so cross-border transport cost is not deducted from your price.",
+      "Avoid selling stripped cells to roadside dealers; sell intact packs to buyers who can identify them."
     ],
-    "nearby": ["delhi-ncr", "ghaziabad", "noida"],
+    "nearby": ["delhi-ncr", "noida", "okhla", "moradabad"],
     "faqs": [
       {
-        "q": "Where can I sell a used lithium-ion battery in Moradabad?",
-        "a": "Submit your battery details through our form. We help connect you with authorised buyers who can collect lots from the Moradabad area."
+        "q": "Who buys old e-rickshaw batteries in Ghaziabad?",
+        "a": "Local battery dealers, scrap yards and registered recyclers all buy them. We help you reach buyers who accept your chemistry and quantity and can show registration for lithium-ion batteries."
       },
       {
-        "q": "Why can a quote in Moradabad differ from one in Delhi?",
-        "a": "Moradabad is further from large recycling facilities, so transport cost is built into the quote. Chemistry, weight, condition and metal prices also affect the price."
+        "q": "Does selling from Ghaziabad give a different price than Delhi?",
+        "a": "Prices follow chemistry, weight, condition and metal rates, not the state. Transport cost to the buyer's yard and border-crossing logistics can change the net amount you receive."
       },
       {
-        "q": "I run a scrap shop in Moradabad. Can I sell batteries in bulk?",
-        "a": "Yes, choose Local Scrap Dealer in the form. Dealers should confirm that the buyer they sell to is a registered recycler or refurbisher."
+        "q": "Can a housing society in Indirapuram or Vasundhara sell its old inverter batteries?",
+        "a": "Yes. Submit the battery type, number of units and location, and we match you with buyers that collect lead-acid or lithium backup batteries from societies."
       },
       {
-        "q": "Can I sell lead-acid e-rickshaw batteries from Rampur or Sambhal through Moradabad?",
-        "a": "Yes. Submit the lead-acid lot with unit count and Ah rating, and we match it with buyers who accept it in your area."
+        "q": "Is there a buyer for Sahibabad factory rejects?",
+        "a": "Yes. State whether the lot is complete packs, modules or loose cells, and mention any damage, so a buyer who accepts that format can be matched."
+      }
+    ]
+  },
+  {
+    "slug": "noida",
+    "name": "Noida & Greater Noida",
+    "state": "Uttar Pradesh",
+    "kind": "city",
+    "published": true,
+    "updatedAt": "2026-11-08",
+    "h1": "EV Battery Scrap & Recycling in Noida and Greater Noida",
+    "metaTitle": "Noida EV Battery Scrap & Recycling | Get Price Estimate",
+    "metaDescription": "Sell EV battery scrap, manufacturing rejects and old e-rickshaw batteries in Noida and Greater Noida. Get an indicative scrap price per kg estimate.",
+    "tagline": "Electronics and EV-component belt with documented rejects",
+    "heroSummary": "Noida and Greater Noida combine electronics manufacturing, warehousing and fast-growing EV use. Batteries here come from production rejects, warranty returns, fleets and individual owners, and the paperwork expectations are different for each.",
+    "keywords": {
+      "primary": "EV battery scrap in Noida",
+      "price": "Lithium battery scrap price per kg in Noida",
+      "buyer": "old e-rickshaw battery buyer in Noida",
+      "recycling": "Lithium ion battery recycling price in Noida"
+    },
+    "marketContext": [
+      "Noida's industrial phases, the Noida SEZ and Greater Noida's Ecotech and Surajpur belts host electronics, auto-component and logistics operations. Besides end-of-life batteries from vehicles, those units produce manufacturing rejects, test failures and returned goods. These lots are often better documented than mixed consumer scrap but need clearer descriptions: format, count, chemistry and any damage.",
+      "Alongside industry, Noida's residential sectors and Greater Noida's townships have added e-rickshaws, scooters and shared-mobility fleets. Two quite different sellers therefore use this page: businesses with documented bulk lots and individuals with a single pack. The process is the same, but the paperwork and pickup are not."
+    ],
+    "industrialHubs": [
+      { "name": "Noida Phase 2 & Noida SEZ", "note": "Export-oriented and electronics units generating rejects and returns." },
+      { "name": "Sector 62 & Sector 63", "note": "Mixed commercial and light-industrial sectors with offices, service centres and workshops." },
+      { "name": "Greater Noida (Ecotech, Surajpur)", "note": "Industrial and warehousing estates with manufacturers and logistics operators." },
+      { "name": "Noida and Yamuna Expressway links", "note": "Expressways used for pickups towards Delhi, Agra and the wider NCR." }
+    ],
+    "dealerNetwork": "In Noida, individual e-rickshaw owners usually go through local battery shops, while companies tend to use formal buyers. Searching for an old e-rickshaw battery buyer in Noida will bring up many small shops; for lithium packs and any lot that needs documentation, shortlist buyers that can name their registered recycler and issue a receipt.",
+    "logistics": "Noida's wide sector roads make pickup easy, but the onward leg into Delhi is subject to goods-vehicle timings, and winter GRAP curbs can slow commercial movement across the NCR. Industrial units should share gate timings and loading facilities, and residents should tell the buyer which sector and landmark to expect.",
+    "chemistryFocus": {
+      "NMC": "Electronics and EV-component manufacturers in Noida may generate NMC cells and modules as production rejects. Specify the cell format, count and any damage before the quote, because modules and loose cells are handled differently from complete packs.",
+      "LFP": "Fleet operators and energy-storage users in the region may hold LFP packs, so keep voltage, Ah, cycle count and BMS logs to hand. Healthier packs can be worth a reuse quote.",
+      "Lead Acid": "Housing-society backup banks and e-rickshaw sets supply most of the lead-acid in residential sectors. List units by Ah rating and age."
+    },
+    "sellerTips": [
+      "Manufacturers should separate rejects by batch and keep batch numbers so the buyer can reconcile quantities.",
+      "Housing societies should record battery type and install date for backup systems before replacement.",
+      "Individual owners should keep the vehicle RC or purchase bill handy."
+    ],
+    "nearby": ["delhi-ncr", "ghaziabad", "okhla", "gurgaon", "moradabad"],
+    "faqs": [
+      {
+        "q": "What is the process to sell old battery online in Noida?",
+        "a": "Submit the form with battery details and quantity. We connect you with an authorised buyer who inspects the lot, confirms the price and arranges pickup."
+      },
+      {
+        "q": "Can Noida manufacturers sell production rejects or loose cells?",
+        "a": "Yes. State the format (pack, module or loose cells) and any damage so we can match you with a buyer that accepts it."
+      },
+      {
+        "q": "Do you accept damaged or swollen batteries from Noida?",
+        "a": "Damaged lithium batteries need special handling. Mention the condition in the form, and the matched buyer will advise on packaging and transport."
+      },
+      {
+        "q": "Can housing societies in Noida sell old backup batteries?",
+        "a": "Yes. Submit battery type, quantity and sector, and we match you with buyers who collect lead-acid or lithium backup batteries from societies."
       }
     ]
   },
@@ -182,62 +425,62 @@
     ]
   },
   {
-    "slug": "noida",
-    "name": "Noida & Greater Noida",
+    "slug": "moradabad",
+    "name": "Moradabad",
     "state": "Uttar Pradesh",
     "kind": "city",
     "published": true,
     "updatedAt": "2026-11-08",
-    "h1": "EV Battery Scrap & Recycling in Noida and Greater Noida",
-    "metaTitle": "Noida EV Battery Scrap & Recycling | Get Price Estimate",
-    "metaDescription": "Sell EV battery scrap, manufacturing rejects and old e-rickshaw batteries in Noida and Greater Noida. Get an indicative scrap price per kg estimate.",
-    "tagline": "Electronics and EV-component belt with documented rejects",
-    "heroSummary": "Noida and Greater Noida combine electronics manufacturing, warehousing and fast-growing EV use. Batteries here come from production rejects, warranty returns, fleets and individual owners, and the paperwork expectations are different for each.",
+    "h1": "Sell Old E-Rickshaw & Lithium Batteries in Moradabad: Scrap Price Guide",
+    "metaTitle": "Old E-Rickshaw Battery Buyer in Moradabad | Scrap Price",
+    "metaDescription": "Sell old e-rickshaw, lithium-ion and lead-acid batteries in Moradabad. See what affects the scrap price per kg and reach buyers who can collect.",
+    "tagline": "Metal-trade city with an active scrap-dealer network",
+    "heroSummary": "Moradabad, known as the Brass City, has one of Uttar Pradesh's most established metal and scrap-trading economies. The same dealer network now handles e-rickshaw and scooter batteries. Check an indicative value, then reach buyers who can take lead-acid and lithium-ion lots responsibly.",
     "keywords": {
-      "primary": "EV battery scrap in Noida",
-      "price": "Lithium battery scrap price per kg in Noida",
-      "buyer": "old e-rickshaw battery buyer in Noida",
-      "recycling": "Lithium ion battery recycling price in Noida"
+      "primary": "EV battery scrap in Moradabad",
+      "price": "E-rickshaw battery scrap price per kg in Moradabad",
+      "buyer": "old e-rickshaw battery buyer in Moradabad",
+      "recycling": "Lithium ion battery recycling price in Moradabad"
     },
     "marketContext": [
-      "Noida's industrial phases, the Noida SEZ and Greater Noida's Ecotech and Surajpur belts host electronics, auto-component and logistics operations. Besides end-of-life batteries from vehicles, those units produce manufacturing rejects, test failures and returned goods. These lots are often better documented than mixed consumer scrap but need clearer descriptions: format, count, chemistry and any damage.",
-      "Alongside industry, Noida's residential sectors and Greater Noida's townships have added e-rickshaws, scooters and shared-mobility fleets. Two quite different sellers therefore use this page: businesses with documented bulk lots and individuals with a single pack. The process is the same, but the paperwork and pickup are not."
+      "Moradabad's economy runs on metal: brassware manufacturing and export, foundries and an extensive local trade in brass and other scrap. Buying, weighing and moving scrap are everyday skills here, but traditional metal dealers are not automatically equipped or authorised to handle lithium-ion or lead-acid battery waste.",
+      "E-rickshaws and electric two-wheelers are increasingly common in the city and nearby towns, so more retired packs reach local dealers and workshops. Moradabad is roughly 160 km from Delhi, which means lots often move onward to larger recyclers in the NCR belt. Transport cost is therefore a real part of the price you are offered."
     ],
     "industrialHubs": [
-      { "name": "Noida Phase 2 & Noida SEZ", "note": "Export-oriented and electronics units generating rejects and returns." },
-      { "name": "Sector 62 & Sector 63", "note": "Mixed commercial and light-industrial sectors with offices, service centres and workshops." },
-      { "name": "Greater Noida (Ecotech, Surajpur)", "note": "Industrial and warehousing estates with manufacturers and logistics operators." },
-      { "name": "Noida and Yamuna Expressway links", "note": "Expressways used for pickups towards Delhi, Agra and the wider NCR." }
+      { "name": "Civil Lines & city centre", "note": "Dense mix of workshops, e-rickshaw sellers and scrap traders." },
+      { "name": "Kanth Road", "note": "Main route with workshops, trading units and export-oriented businesses." },
+      { "name": "Delhi Road corridor", "note": "Highway-side workshops and dealers, convenient for onward transport to NCR buyers." },
+      { "name": "Rampur, Sambhal & Amroha", "note": "Nearby towns whose dealers and e-rickshaw owners often sell through Moradabad." }
     ],
-    "dealerNetwork": "In Noida, individual e-rickshaw owners usually go through local battery shops, while companies tend to use formal buyers. Searching for an old e-rickshaw battery buyer in Noida will bring up many small shops; for lithium packs and any lot that needs documentation, shortlist buyers that can name their registered recycler and issue a receipt.",
-    "logistics": "Noida's wide sector roads make pickup easy, but the onward leg into Delhi is subject to goods-vehicle timings, and winter GRAP curbs can slow commercial movement across the NCR. Industrial units should share gate timings and loading facilities, and residents should tell the buyer which sector and landmark to expect.",
+    "dealerNetwork": "A thick network of metal dealers means you can get several verbal figures quickly, but a metal dealer is not necessarily an authorised battery buyer. If you want an old e-rickshaw battery buyer in Moradabad, ask where each dealer's lead-acid goes and whether lithium packs are passed to a registered recycler. Dealers who consolidate loads for the Delhi side can often pay a fairer rate than those who simply stockpile.",
+    "logistics": "Because Moradabad is not a lithium-ion recycling hub, the price you receive reflects transport to the buyer. Larger lots are collected by vehicle on the Delhi road corridor, while a single pack may be better combined with a dealer's consolidated load. Share your exact location, pack count and condition so the matched buyer can quote pickup realistically.",
     "chemistryFocus": {
-      "NMC": "Electronics and EV-component manufacturers in Noida may generate NMC cells and modules as production rejects. Specify the cell format, count and any damage before the quote, because modules and loose cells are handled differently from complete packs.",
-      "LFP": "Fleet operators and energy-storage users in the region may hold LFP packs, so keep voltage, Ah, cycle count and BMS logs to hand. Healthier packs can be worth a reuse quote.",
-      "Lead Acid": "Housing-society backup banks and e-rickshaw sets supply most of the lead-acid in residential sectors. List units by Ah rating and age."
+      "Lead Acid": "Lead-acid e-rickshaw and inverter batteries are the bulk of what local dealers see. Separate them from lithium, and note the Ah rating and age of each unit.",
+      "LFP": "As e-loaders and newer e-rickshaws with lithium arrive in the city and nearby towns, LFP packs should be listed separately. A pack with good BMS readings may interest a refurbisher.",
+      "NMC": "NMC scooter packs from dealers and service shops should be kept intact. The buyer will quote after factoring in transport, so give accurate voltage, Ah and condition details."
     },
     "sellerTips": [
-      "Manufacturers should separate rejects by batch and keep batch numbers so the buyer can reconcile quantities.",
-      "Housing societies should record battery type and install date for backup systems before replacement.",
-      "Individual owners should keep the vehicle RC or purchase bill handy."
+      "If you are a dealer, separate lead-acid, LFP and NMC packs, since mixed lots may be priced at the lowest-value chemistry.",
+      "Do not open or strip packs to sell cells separately. Intact packs are easier to inspect and safer to transport.",
+      "Consolidate small lots with other sellers where possible to reduce per-kg transport cost."
     ],
-    "nearby": ["delhi-ncr", "ghaziabad", "okhla", "gurgaon", "moradabad"],
+    "nearby": ["delhi-ncr", "ghaziabad", "noida"],
     "faqs": [
       {
-        "q": "What is the process to sell old battery online in Noida?",
-        "a": "Submit the form with battery details and quantity. We connect you with an authorised buyer who inspects the lot, confirms the price and arranges pickup."
+        "q": "Where can I sell a used lithium-ion battery in Moradabad?",
+        "a": "Submit your battery details through our form. We help connect you with authorised buyers who can collect lots from the Moradabad area."
       },
       {
-        "q": "Can Noida manufacturers sell production rejects or loose cells?",
-        "a": "Yes. State the format (pack, module or loose cells) and any damage so we can match you with a buyer that accepts it."
+        "q": "Why can a quote in Moradabad differ from one in Delhi?",
+        "a": "Moradabad is further from large recycling facilities, so transport cost is built into the quote. Chemistry, weight, condition and metal prices also affect the price."
       },
       {
-        "q": "Do you accept damaged or swollen batteries from Noida?",
-        "a": "Damaged lithium batteries need special handling. Mention the condition in the form, and the matched buyer will advise on packaging and transport."
+        "q": "I run a scrap shop in Moradabad. Can I sell batteries in bulk?",
+        "a": "Yes, choose Local Scrap Dealer in the form. Dealers should confirm that the buyer they sell to is a registered recycler or refurbisher."
       },
       {
-        "q": "Can housing societies in Noida sell old backup batteries?",
-        "a": "Yes. Submit battery type, quantity and sector, and we match you with buyers who collect lead-acid or lithium backup batteries from societies."
+        "q": "Can I sell lead-acid e-rickshaw batteries from Rampur or Sambhal through Moradabad?",
+        "a": "Yes. Submit the lead-acid lot with unit count and Ah rating, and we match it with buyers who accept it in your area."
       }
     ]
   }
