@@ -1,27 +1,28 @@
 import type { MetadataRoute } from "next";
-import { SITE_URL, getCityUrl, getPublishedCities } from "../lib/cities";
+import { SITE_URL, getCityUrl, getPublishedCities } from "@/lib/cities";
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const cities = getPublishedCities();
 
-  // Use the newest content date instead of "now", so lastmod stays truthful
-  const latest = cities.reduce(
-    (max, c) => Math.max(max, Date.parse(c.updatedAt)),
-    0
-  );
+  // सुरक्षित रूप से सबसे नवीनतम अपडेट तारीख (lastModified) निकालना
+  const latest = cities.reduce((max, c) => {
+    const time = Date.parse(c.updatedAt);
+    return isNaN(time) ? max : Math.max(max, time);
+  }, 0);
 
-  return [
-    {
-      url: SITE_URL,
-      lastModified: latest ? new Date(latest) : undefined,
-      changeFrequency: "weekly",
-      priority: 1,
-    },
-    ...cities.map((c) => ({
-      url: getCityUrl(c.slug),
-      lastModified: new Date(c.updatedAt),
-      changeFrequency: "weekly" as const,
-      priority: 0.8,
-    })),
-  ];
+  const staticEntry: MetadataRoute.Sitemap[number] = {
+    url: SITE_URL,
+    lastModified: latest ? new Date(latest) : new Date(),
+    changeFrequency: "weekly",
+    priority: 1.0,
+  };
+
+  const cityEntries: MetadataRoute.Sitemap = cities.map((c) => ({
+    url: getCityUrl(c.slug),
+    lastModified: !isNaN(Date.parse(c.updatedAt)) ? new Date(c.updatedAt) : new Date(),
+    changeFrequency: "weekly" as const,
+    priority: c.kind === "hub" ? 0.9 : 0.8,
+  }));
+
+  return [staticEntry, ...cityEntries];
 }
