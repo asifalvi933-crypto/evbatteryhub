@@ -611,14 +611,14 @@ export default function HomePage() {
           </div>
         </div>
         
-        {/* Google Translate Widget Integration */}
+        {/* Google Translate Widget for All Languages */}
         <div className="py-4 text-center border-t border-white/10">
           <div id="google_translate_element" className="inline-block"></div>
           <script
             dangerouslySetInnerHTML={{
               __html: `
                 function googleTranslateElementInit() {
-                  new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'hi,en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+                  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
                 }
               `,
             }}
