@@ -1,10 +1,9 @@
 import type { MetadataRoute } from "next";
-import { SITE_URL, getCityUrl, getPublishedCities } from "@/lib/cities";
+import { SITE_URL, getCityUrl, getPublishedCities } from "../lib/cities";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const cities = getPublishedCities();
 
-  // सुरक्षित रूप से सबसे नवीनतम अपडेट तारीख (lastModified) निकालना
   const latest = cities.reduce((max, c) => {
     const time = Date.parse(c.updatedAt);
     return isNaN(time) ? max : Math.max(max, time);
