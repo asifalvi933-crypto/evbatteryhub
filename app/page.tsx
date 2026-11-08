@@ -267,7 +267,7 @@ export default function HomePage() {
 
   return (
     <div className="font-sans text-slate-800 bg-white antialiased">
-      {/* Dynamic CSS & Tailwind Imports */}
+      {/* Tailwind CSS & Google Fonts CDN */}
       <script src="https://cdn.tailwindcss.com"></script>
       <script
         dangerouslySetInnerHTML={{
@@ -286,6 +286,7 @@ export default function HomePage() {
       <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
       <style dangerouslySetInnerHTML={{ __html: `
         html { scroll-behavior: smooth; }
+        body { font-family: 'Inter', sans-serif; background-color: #ffffff; color: #1e293b; }
         .card { transition: transform .25s ease, box-shadow .25s ease; }
         .card:hover { transform: translateY(-4px); box-shadow: 0 14px 30px -10px rgba(6,78,59,.25); }
         .field { width: 100%; border: 1px solid #d1d5db; border-radius: .75rem; padding: .7rem .9rem; background: #fff; transition: border-color .2s, box-shadow .2s; }
