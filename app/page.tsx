@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect } from "react";
+import BrowseCities from "../components/BrowseCities";
 
 export default function HomePage() {
   useEffect(() => {
@@ -80,8 +81,9 @@ export default function HomePage() {
     /* ============================================================
        TAB 1 — SCRAP CALCULATOR
        ============================================================ */
-    $("measureType")?.addEventListener("change", (e: any) => {
-      const kg = e.target.value === "kg";
+    $("measureType")?.addEventListener("change", (e: Event) => {
+      const target = e.target as HTMLSelectElement;
+      const kg = target.value === "kg";
       const lbl = $("measureLabel");
       const input = $("measureVal") as HTMLInputElement;
       if (lbl) lbl.textContent = kg ? "Weight (kg)" : "Capacity (kWh)";
@@ -133,8 +135,9 @@ export default function HomePage() {
       citySelect.innerHTML = '<option value="">Select city</option>' + CITIES.map(c => `<option>${c}</option>`).join("");
     }
 
-    $("oldUnit")?.addEventListener("change", (e: any) => {
-      const ah = e.target.value === "ah";
+    $("oldUnit")?.addEventListener("change", (e: Event) => {
+      const target = e.target as HTMLSelectElement;
+      const ah = target.value === "ah";
       $("voltBox")?.classList.toggle("hidden", !ah);
       const oldCap = $("oldCap") as HTMLInputElement;
       if (oldCap) oldCap.placeholder = ah ? "e.g. 50" : "e.g. 2.5";
@@ -479,6 +482,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* BROWSE CITIES (pSEO Internal Linking Grid) */}
+      <BrowseCities />
 
       {/* FEATURES GRID */}
       <section id="scrap-rates" className="max-w-7xl mx-auto px-4 py-14">
